@@ -58,7 +58,7 @@ body {
         rgba(255, 255, 255) 25% ,
         rgba(255, 255, 255, 0)
         ) , url('https://static.toss.im/assets/homepage/newtossim/new_main.png');
-    background-size: 1640px;
+    background-size: auto;
     background-repeat: no-repeat;
     background-position-x: center;
 }
