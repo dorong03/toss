@@ -125,6 +125,31 @@ body {
         
     }
 
+    #menu2 {
+        display:none;
+    }
+
+    #menu2.show {
+        display:flex;
+    }
+
+    #menu2.show > ul {
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+        position: absolute;
+        left: 0px;
+        top: 50px;
+        gap: 30px;
+        background-color: white;
+        padding-bottom: 20px;
+    }
+
+    #menu2.show > ul >li {
+        display: inline-block;
+        width: 100vh;
+    }
+
     .click_menu {
         display: none;
     }
